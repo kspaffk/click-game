@@ -1,98 +1,62 @@
  [
    {
      "id": 1,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-1.jpg",
      "isClicked": false
    },
    {
      "id": 2,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-2.jpg",
      "isClicked": false
    },
    {
      "id": 3,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-3.jpg",
      "isClicked": false
    },
    {
      "id": 4,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-4.jpg",
      "isClicked": false
    },
    {
      "id": 5,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-5.jpg",
      "isClicked": false
    },
    {
      "id": 6,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-6.jpg",
      "isClicked": false
    },
    {
      "id": 7,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-7.jpg",
      "isClicked": false
    },
    {
      "id": 8,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-8.jpg",
      "isClicked": false
    },
    {
      "id": 9,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-9.jpg",
      "isClicked": false
    },
    {
      "id": 10,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-10.jpg",
      "isClicked": false
    },
    {
      "id": 11,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-11.jpg",
      "isClicked": false
    },
    {
      "id": 12,
-     "imgName": "",
-     "imgURL": "",
-     "isClicked": false
-   },
-   {
-     "id": 13,
-     "imgName": "",
-     "imgURL": "",
-     "isClicked": false
-   },
-   {
-     "id": 14,
-     "imgName": "",
-     "imgURL": "",
-     "isClicked": false
-   },
-   {
-     "id": 15,
-     "imgName": "",
-     "imgURL": "",
-     "isClicked": false
-   },
-   {
-     "id": 16,
-     "imgName": "",
-     "imgURL": "",
+     "imgURL": "./vader-12.jpg",
      "isClicked": false
    }
 ]
