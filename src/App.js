@@ -1,53 +1,84 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 import Wrapper from './components/Wrapper'
 import Header from './components/Header'
 import Image from './components/Image'
-import images from './images.json';
+import imagesData from './images.json'
 
 class App extends Component {
   state = {
-    images,
+    images: imagesData,
     score: 0,
-  };
+    topScore: 0
+  }
 
-  clicked = event => {
-    const { id } = event.target
-    
-    console.log(`clicked`, event.target, id)
-    this.shuffleImages(images);
-  };
+  clicked = clickedId => {
+    this.shuffleImages(this.state.images);
+    const clickedImage = this.state.images.find(image => image.id === clickedId)
 
-  shuffleImages = (array) => {
+    if (clickedImage.isClicked) {
+      return this.resetGame()
+    } else {
+    this.setState(prevState => {
+      const updatedImages = prevState.images.map(image => {    
+        if (image.id === clickedId) {
+          image.isClicked = true
+        }
+        return image
+      })
+
+      let newScore = prevState.score + 1
+      let newTopScore = prevState.topScore
+      if (newScore > prevState.topScore) {
+        newTopScore = newScore
+      }
+
+      return (
+        { images: updatedImages, score: newScore, topScore: newTopScore }
+        )
+      })
+    }
+  }
+
+  shuffleImages = array => {
     let currentIndex = array.length, temporaryValue, randomIndex;
-  
-    // While there remain elements to shuffle...
     while (0 !== currentIndex) {
   
-      // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
   
-      // And swap it with the current element.
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
-      this.setState({
-        images: array
-      })
     }
-  
-    return array;
-  };
+    this.setState({
+      images: array
+    })
+   }
+
+   resetGame = () => {
+    this.setState(prevState => {
+      const updatedImages = prevState.images.map(image => {    
+        if (image.isClicked) {
+          image.isClicked = false
+        }
+        return image
+      })
+    return ({
+      images: updatedImages,
+      score: 0
+    })
+   })
+  }
 
   render() {
     return (
       <Wrapper>
         <div>
-          <Header />
+          <Header score={this.state.score} topScore={this.state.topScore}/>
         </div>
         <div className="images">
-          {this.state.images.map(image => <Image key={image.id} clicked={this.clicked} image={image}/>)}
+          {this.state.images.map(image => <Image key={image.id} clicked={this.clicked} resetGame={this.resetGame} image={image}/>)}
         </div>
       </Wrapper>
     )

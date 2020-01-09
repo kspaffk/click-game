@@ -1,3 +1,12 @@
-header {
+ul {
+    list-style-type: none;
+}
+
+.title {
     font-size: 150px;
+    text-shadow: 2px 2px crimson;
+}
+
+.scoreboard {
+    text-align: center;
 }

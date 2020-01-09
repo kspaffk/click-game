@@ -4,7 +4,12 @@ import './styles.css'
 function Images(props) {
   return (
     <div className='img-container'>
-      <img style={props.image.isClicked ? {border: "1 solid red"} : {border: "none"}} src={`img/${props.image.imgURL}`} alt='vader' onClick={props.clicked} id={props.image.id}/>
+      <img 
+        style={props.image.isClicked ? {width: "50px"} : {width: "150px"}} 
+        src={`img/${props.image.imgURL}`} 
+        alt='vader' 
+        onClick={() => props.clicked(props.image.id)}>
+      </img>
     </div>
   )
 }
