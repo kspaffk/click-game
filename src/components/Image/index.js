@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './styles.css'
 
 function Images(props) {
@@ -13,4 +13,4 @@ function Images(props) {
   )
 }
 
-export default Images;
+export default Images

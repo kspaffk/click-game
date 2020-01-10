@@ -1,0 +1,41 @@
+.spans {
+    text-shadow: 1px 1px crimson;
+    font-size: 34px;
+}
+
+span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 30px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: grey;
+    text-align: center;
+}
+
+.wrong {
+    animation-name: wrong;
+    animation-duration: 4s;
+}
+
+.correct {
+    animation-name: correct;
+    animation-duration: 4s;
+}
+
+@keyframes wrong {
+    from {color: crimson; font-size: 35px;}
+    to {color: black; font-size: 30px;}
+}
+
+@keyframes correct {
+    from {color: greenyellow; font-size: 35px;}
+    to {color: black; font-size: 30px;}
+}

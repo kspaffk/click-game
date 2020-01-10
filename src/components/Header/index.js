@@ -4,10 +4,8 @@ import './styles.css'
 function Header(props) {
     return (
         <header>
-            <ul>
-                <li className="title">Vader Click</li>
-                <li className="scoreboard">Score: {props.score} --||-- Top Score: {props.topScore}</li>
-            </ul>
+                <div className="title">Vader Click</div>
+                <div className="scoreboard">Score: {props.score} | Top Score: {props.topScore}</div>
         </header>
 
     )
