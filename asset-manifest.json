@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kspaffk/click-game/build/static/css/main.5daf06a3.chunk.css",
+    "main.js": "/kspaffk/click-game/build/static/js/main.fced0ba4.chunk.js",
+    "main.js.map": "/kspaffk/click-game/build/static/js/main.fced0ba4.chunk.js.map",
+    "runtime-main.js": "/kspaffk/click-game/build/static/js/runtime-main.1b6150cf.js",
+    "runtime-main.js.map": "/kspaffk/click-game/build/static/js/runtime-main.1b6150cf.js.map",
+    "static/js/2.d82bc6a1.chunk.js": "/kspaffk/click-game/build/static/js/2.d82bc6a1.chunk.js",
+    "static/js/2.d82bc6a1.chunk.js.map": "/kspaffk/click-game/build/static/js/2.d82bc6a1.chunk.js.map",
+    "index.html": "/kspaffk/click-game/build/index.html",
+    "precache-manifest.943a8b08bec5f852afb6a384b0067047.js": "/kspaffk/click-game/build/precache-manifest.943a8b08bec5f852afb6a384b0067047.js",
+    "service-worker.js": "/kspaffk/click-game/build/service-worker.js",
+    "static/css/main.5daf06a3.chunk.css.map": "/kspaffk/click-game/build/static/css/main.5daf06a3.chunk.css.map",
+    "static/js/2.d82bc6a1.chunk.js.LICENSE": "/kspaffk/click-game/build/static/js/2.d82bc6a1.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b6150cf.js",
+    "static/js/2.d82bc6a1.chunk.js",
+    "static/css/main.5daf06a3.chunk.css",
+    "static/js/main.fced0ba4.chunk.js"
+  ]
+}

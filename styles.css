@@ -1,0 +1,16 @@
+body {
+  font-family: 'Kelly Slab', cursive;
+  background-color: #c1c1c1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
