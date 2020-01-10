@@ -6,7 +6,7 @@ function Header(props) {
         <header>
             <ul>
                 <li className="title">Vader Click</li>
-                <li className="scoreboard">Score: {props.score} || Top Score: {props.topScore}</li>
+                <li className="scoreboard">Score: {props.score} --||-- Top Score: {props.topScore}</li>
             </ul>
         </header>
 

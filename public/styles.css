@@ -1,0 +1,15 @@
+header {
+  font-family: 'Kelly Slab', cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

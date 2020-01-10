@@ -77,8 +77,10 @@ class App extends Component {
         <div>
           <Header score={this.state.score} topScore={this.state.topScore}/>
         </div>
-        <div className="images">
-          {this.state.images.map(image => <Image key={image.id} clicked={this.clicked} resetGame={this.resetGame} image={image}/>)}
+        <div className="container">
+          <div className="images">
+            {this.state.images.map(image => <Image key={image.id} clicked={this.clicked} resetGame={this.resetGame} image={image}/>)}
+          </div>
         </div>
       </Wrapper>
     )
