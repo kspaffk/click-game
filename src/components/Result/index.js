@@ -21,7 +21,7 @@ function Result(props) {
                 <div className="spans">
                     <span className="win">You win!</span>
                     <span className="quote">"You were right. You were right about me."</span>
-                    <span>Click and image to play again!</span>
+                    <span>Click an image to play again!</span>
                 </div>
             </div>
         );
