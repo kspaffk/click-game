@@ -31,11 +31,11 @@ span {
 }
 
 @keyframes wrong {
-    from {color: crimson; font-size: 35px;}
-    to {color: black; font-size: 30px;}
+    from {color: crimson; font-size: 38px;}
+    to {color: black; font-size: 34px;}
 }
 
 @keyframes correct {
-    from {color: greenyellow; font-size: 35px;}
-    to {color: black; font-size: 30px;}
+    from {color: greenyellow; font-size: 38px;}
+    to {color: black; font-size: 34px;}
 }
