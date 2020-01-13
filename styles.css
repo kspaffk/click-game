@@ -14,3 +14,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media only screen and (max-width: 720px) {
+  .images {
+    width: 400px;
+  }
+}
